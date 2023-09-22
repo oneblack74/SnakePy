@@ -1,0 +1,47 @@
+# Cadrillage
+BOX_SIZE = 20
+BOX_HEIGHT = 20
+BOX_WIDTH = 20
+
+# Fenêtre
+WIN_GAME_HEIGHT = BOX_HEIGHT * BOX_SIZE
+WIN_GAME_WIDTH = BOX_WIDTH * BOX_SIZE
+WIN_BORDER_GAP = 8
+WIN_BORDER_WIDTH = 8
+WIN_BORDER = WIN_BORDER_GAP + WIN_BORDER_WIDTH
+WIN_TEXT = 150
+WIN_HEIGHT = WIN_GAME_HEIGHT + WIN_BORDER * 2
+WIN_WIDTH = WIN_GAME_WIDTH + WIN_BORDER * 2 + WIN_TEXT
+
+# Snake
+SNAKE_SIZE = 3
+POMME_MAX = (WIN_GAME_WIDTH // BOX_SIZE) * (WIN_GAME_HEIGHT // BOX_SIZE) - (SNAKE_SIZE + 1)
+
+# Horloge
+FPS = BOX_WIDTH * 8
+
+# Couleurs
+COULEUR_BLANC = (235, 235, 235)
+COULEUR_FOND = (0, 0, 0)
+COULEUR_SNAKE = (0, 200, 0)
+COULEUR_BORDURE = (200, 0, 50)
+COULEUR_WIN_TEXT = (200, 200, 200)
+COULEUR_TEXTE = (255, 125, 80)
+
+# Chemins d'accès
+CHEMIN_TETE_HAUT = "props/tete_haut.png"
+CHEMIN_TETE_BAS = "props/tete_bas.png"
+CHEMIN_TETE_GAUCHE = "props/tete_gauche.png"
+CHEMIN_TETE_DROITE = "props/tete_droite.png"
+CHEMIN_POMME = "props/pomme.png"
+CHEMIN_POMME_GRANDE = "props/pomme_grande.png"
+
+# Sauvegarde
+FICHIER_SAUVEGARDE = "save\\sauvegarde.txt"
+
+# Menu
+CADRE_GAP = 10
+CADRE_WIDTH = 3
+
+# Depart
+FPS_DEPART = 10
